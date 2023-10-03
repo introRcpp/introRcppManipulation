@@ -2,86 +2,86 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 RType <- function(x) {
-    .Call(`_manipulation_RType`, x)
+    .Call(`_introRcppManipulation_RType`, x)
 }
 
 countNAs <- function(x) {
-    .Call(`_manipulation_countNAs`, x)
+    .Call(`_introRcppManipulation_countNAs`, x)
 }
 
 countZeroes <- function(x) {
-    .Call(`_manipulation_countZeroes`, x)
+    .Call(`_introRcppManipulation_countZeroes`, x)
 }
 
 createDF <- function() {
-    .Call(`_manipulation_createDF`)
+    .Call(`_introRcppManipulation_createDF`)
 }
 
 createList <- function() {
-    .Call(`_manipulation_createList`)
+    .Call(`_introRcppManipulation_createList`)
 }
 
 createVec1 <- function() {
-    .Call(`_manipulation_createVec1`)
+    .Call(`_introRcppManipulation_createVec1`)
 }
 
 createVec2 <- function() {
-    .Call(`_manipulation_createVec2`)
+    .Call(`_introRcppManipulation_createVec2`)
 }
 
 enumerate <- function(x) {
-    invisible(.Call(`_manipulation_enumerate`, x))
+    invisible(.Call(`_introRcppManipulation_enumerate`, x))
 }
 
 favourites <- function() {
-    .Call(`_manipulation_favourites`)
+    .Call(`_introRcppManipulation_favourites`)
 }
 
 getAlpha <- function(x) {
-    .Call(`_manipulation_getAlpha`, x)
+    .Call(`_introRcppManipulation_getAlpha`, x)
 }
 
 getLevels <- function(x) {
-    .Call(`_manipulation_getLevels`, x)
+    .Call(`_introRcppManipulation_getLevels`, x)
 }
 
 getNonNAs <- function(x) {
-    .Call(`_manipulation_getNonNAs`, x)
+    .Call(`_introRcppManipulation_getNonNAs`, x)
 }
 
 getOne <- function(x) {
-    .Call(`_manipulation_getOne`, x)
+    .Call(`_introRcppManipulation_getOne`, x)
 }
 
 names1 <- function(x) {
-    .Call(`_manipulation_names1`, x)
+    .Call(`_introRcppManipulation_names1`, x)
 }
 
 names2 <- function(x) {
-    .Call(`_manipulation_names2`, x)
+    .Call(`_introRcppManipulation_names2`, x)
 }
 
 someFactor <- function() {
-    .Call(`_manipulation_someFactor`)
+    .Call(`_introRcppManipulation_someFactor`)
 }
 
 uninitialized <- function(n) {
-    .Call(`_manipulation_uninitialized`, n)
+    .Call(`_introRcppManipulation_uninitialized`, n)
 }
 
 vec0 <- function(n) {
-    .Call(`_manipulation_vec0`, n)
+    .Call(`_introRcppManipulation_vec0`, n)
 }
 
 vec1 <- function(n) {
-    .Call(`_manipulation_vec1`, n)
+    .Call(`_introRcppManipulation_vec1`, n)
 }
 
 whatever <- function(n, a) {
-    .Call(`_manipulation_whatever`, n, a)
+    .Call(`_introRcppManipulation_whatever`, n, a)
 }
 
 zeros <- function(n) {
-    .Call(`_manipulation_zeros`, n)
+    .Call(`_introRcppManipulation_zeros`, n)
 }
 

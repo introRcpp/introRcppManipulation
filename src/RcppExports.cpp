@@ -12,7 +12,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // RType
 std::string RType(SEXP x);
-RcppExport SEXP _manipulation_RType(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_RType(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -23,7 +23,7 @@ END_RCPP
 }
 // countNAs
 int countNAs(NumericVector x);
-RcppExport SEXP _manipulation_countNAs(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_countNAs(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -34,7 +34,7 @@ END_RCPP
 }
 // countZeroes
 int countZeroes(Rcpp::IntegerVector x);
-RcppExport SEXP _manipulation_countZeroes(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_countZeroes(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -45,7 +45,7 @@ END_RCPP
 }
 // createDF
 DataFrame createDF();
-RcppExport SEXP _manipulation_createDF() {
+RcppExport SEXP _introRcppManipulation_createDF() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -55,7 +55,7 @@ END_RCPP
 }
 // createList
 List createList();
-RcppExport SEXP _manipulation_createList() {
+RcppExport SEXP _introRcppManipulation_createList() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -65,7 +65,7 @@ END_RCPP
 }
 // createVec1
 NumericVector createVec1();
-RcppExport SEXP _manipulation_createVec1() {
+RcppExport SEXP _introRcppManipulation_createVec1() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -75,7 +75,7 @@ END_RCPP
 }
 // createVec2
 NumericVector createVec2();
-RcppExport SEXP _manipulation_createVec2() {
+RcppExport SEXP _introRcppManipulation_createVec2() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -85,7 +85,7 @@ END_RCPP
 }
 // enumerate
 void enumerate(NumericVector x);
-RcppExport SEXP _manipulation_enumerate(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_enumerate(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
@@ -95,7 +95,7 @@ END_RCPP
 }
 // favourites
 IntegerVector favourites();
-RcppExport SEXP _manipulation_favourites() {
+RcppExport SEXP _introRcppManipulation_favourites() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -105,7 +105,7 @@ END_RCPP
 }
 // getAlpha
 NumericVector getAlpha(List x);
-RcppExport SEXP _manipulation_getAlpha(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_getAlpha(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -116,7 +116,7 @@ END_RCPP
 }
 // getLevels
 CharacterVector getLevels(IntegerVector x);
-RcppExport SEXP _manipulation_getLevels(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_getLevels(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -127,7 +127,7 @@ END_RCPP
 }
 // getNonNAs
 NumericVector getNonNAs(NumericVector x);
-RcppExport SEXP _manipulation_getNonNAs(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_getNonNAs(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -138,7 +138,7 @@ END_RCPP
 }
 // getOne
 double getOne(NumericVector x);
-RcppExport SEXP _manipulation_getOne(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_getOne(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -149,7 +149,7 @@ END_RCPP
 }
 // names1
 CharacterVector names1(NumericVector x);
-RcppExport SEXP _manipulation_names1(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_names1(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -160,7 +160,7 @@ END_RCPP
 }
 // names2
 CharacterVector names2(NumericVector x);
-RcppExport SEXP _manipulation_names2(SEXP xSEXP) {
+RcppExport SEXP _introRcppManipulation_names2(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -171,7 +171,7 @@ END_RCPP
 }
 // someFactor
 IntegerVector someFactor();
-RcppExport SEXP _manipulation_someFactor() {
+RcppExport SEXP _introRcppManipulation_someFactor() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -181,7 +181,7 @@ END_RCPP
 }
 // uninitialized
 IntegerVector uninitialized(int n);
-RcppExport SEXP _manipulation_uninitialized(SEXP nSEXP) {
+RcppExport SEXP _introRcppManipulation_uninitialized(SEXP nSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -192,7 +192,7 @@ END_RCPP
 }
 // vec0
 Rcpp::NumericVector vec0(int n);
-RcppExport SEXP _manipulation_vec0(SEXP nSEXP) {
+RcppExport SEXP _introRcppManipulation_vec0(SEXP nSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -203,7 +203,7 @@ END_RCPP
 }
 // vec1
 Rcpp::IntegerVector vec1(int n);
-RcppExport SEXP _manipulation_vec1(SEXP nSEXP) {
+RcppExport SEXP _introRcppManipulation_vec1(SEXP nSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -214,7 +214,7 @@ END_RCPP
 }
 // whatever
 IntegerVector whatever(int n, int a);
-RcppExport SEXP _manipulation_whatever(SEXP nSEXP, SEXP aSEXP) {
+RcppExport SEXP _introRcppManipulation_whatever(SEXP nSEXP, SEXP aSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -226,7 +226,7 @@ END_RCPP
 }
 // zeros
 IntegerVector zeros(int n);
-RcppExport SEXP _manipulation_zeros(SEXP nSEXP) {
+RcppExport SEXP _introRcppManipulation_zeros(SEXP nSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -237,31 +237,31 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_manipulation_RType", (DL_FUNC) &_manipulation_RType, 1},
-    {"_manipulation_countNAs", (DL_FUNC) &_manipulation_countNAs, 1},
-    {"_manipulation_countZeroes", (DL_FUNC) &_manipulation_countZeroes, 1},
-    {"_manipulation_createDF", (DL_FUNC) &_manipulation_createDF, 0},
-    {"_manipulation_createList", (DL_FUNC) &_manipulation_createList, 0},
-    {"_manipulation_createVec1", (DL_FUNC) &_manipulation_createVec1, 0},
-    {"_manipulation_createVec2", (DL_FUNC) &_manipulation_createVec2, 0},
-    {"_manipulation_enumerate", (DL_FUNC) &_manipulation_enumerate, 1},
-    {"_manipulation_favourites", (DL_FUNC) &_manipulation_favourites, 0},
-    {"_manipulation_getAlpha", (DL_FUNC) &_manipulation_getAlpha, 1},
-    {"_manipulation_getLevels", (DL_FUNC) &_manipulation_getLevels, 1},
-    {"_manipulation_getNonNAs", (DL_FUNC) &_manipulation_getNonNAs, 1},
-    {"_manipulation_getOne", (DL_FUNC) &_manipulation_getOne, 1},
-    {"_manipulation_names1", (DL_FUNC) &_manipulation_names1, 1},
-    {"_manipulation_names2", (DL_FUNC) &_manipulation_names2, 1},
-    {"_manipulation_someFactor", (DL_FUNC) &_manipulation_someFactor, 0},
-    {"_manipulation_uninitialized", (DL_FUNC) &_manipulation_uninitialized, 1},
-    {"_manipulation_vec0", (DL_FUNC) &_manipulation_vec0, 1},
-    {"_manipulation_vec1", (DL_FUNC) &_manipulation_vec1, 1},
-    {"_manipulation_whatever", (DL_FUNC) &_manipulation_whatever, 2},
-    {"_manipulation_zeros", (DL_FUNC) &_manipulation_zeros, 1},
+    {"_introRcppManipulation_RType", (DL_FUNC) &_introRcppManipulation_RType, 1},
+    {"_introRcppManipulation_countNAs", (DL_FUNC) &_introRcppManipulation_countNAs, 1},
+    {"_introRcppManipulation_countZeroes", (DL_FUNC) &_introRcppManipulation_countZeroes, 1},
+    {"_introRcppManipulation_createDF", (DL_FUNC) &_introRcppManipulation_createDF, 0},
+    {"_introRcppManipulation_createList", (DL_FUNC) &_introRcppManipulation_createList, 0},
+    {"_introRcppManipulation_createVec1", (DL_FUNC) &_introRcppManipulation_createVec1, 0},
+    {"_introRcppManipulation_createVec2", (DL_FUNC) &_introRcppManipulation_createVec2, 0},
+    {"_introRcppManipulation_enumerate", (DL_FUNC) &_introRcppManipulation_enumerate, 1},
+    {"_introRcppManipulation_favourites", (DL_FUNC) &_introRcppManipulation_favourites, 0},
+    {"_introRcppManipulation_getAlpha", (DL_FUNC) &_introRcppManipulation_getAlpha, 1},
+    {"_introRcppManipulation_getLevels", (DL_FUNC) &_introRcppManipulation_getLevels, 1},
+    {"_introRcppManipulation_getNonNAs", (DL_FUNC) &_introRcppManipulation_getNonNAs, 1},
+    {"_introRcppManipulation_getOne", (DL_FUNC) &_introRcppManipulation_getOne, 1},
+    {"_introRcppManipulation_names1", (DL_FUNC) &_introRcppManipulation_names1, 1},
+    {"_introRcppManipulation_names2", (DL_FUNC) &_introRcppManipulation_names2, 1},
+    {"_introRcppManipulation_someFactor", (DL_FUNC) &_introRcppManipulation_someFactor, 0},
+    {"_introRcppManipulation_uninitialized", (DL_FUNC) &_introRcppManipulation_uninitialized, 1},
+    {"_introRcppManipulation_vec0", (DL_FUNC) &_introRcppManipulation_vec0, 1},
+    {"_introRcppManipulation_vec1", (DL_FUNC) &_introRcppManipulation_vec1, 1},
+    {"_introRcppManipulation_whatever", (DL_FUNC) &_introRcppManipulation_whatever, 2},
+    {"_introRcppManipulation_zeros", (DL_FUNC) &_introRcppManipulation_zeros, 1},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_manipulation(DllInfo *dll) {
+RcppExport void R_init_introRcppManipulation(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }
